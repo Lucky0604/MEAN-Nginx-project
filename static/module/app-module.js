@@ -1,0 +1,1 @@
+angular.module('myApp', ['ngRoute', 'app-route', 'page1Ctrl', 'page2Ctrl'])

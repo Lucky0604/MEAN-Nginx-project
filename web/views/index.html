@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Node & Nginx</title>
+</head>
+<body>
+	<h1>Hello World!</h1>
+
+	<a href="#/">page1</a>
+	<a href="#/page2">page2</a>
+	<div ng-view></div>
+	<!-- angular -->
+	<script src="/core/angular/angular.min.js"></script>
+	<!-- ng-route -->
+	<script type="text/javascript" src="/core/angular-route/angular-route.min.js"></script>
+	<!-- app module -->
+	<script src="/module/app-module.js"></script>
+	<!-- app routes -->
+	<script src="/module/app-route.js"></script>
+	<!-- controllers -->
+	<script src="/module/page1/page1Ctrl.js"></script>
+	<script src="/module/page2/page2Ctrl.js"></script>
+</body>
+</html>
